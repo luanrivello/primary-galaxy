@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="BorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="723.0" prefWidth="1296.0" stylesheets="@comoStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="comojogar.ComoJogarFXMLController">
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="81.0" fitWidth="232.0" onMouseClicked="#voltar" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../primarygalaxy/botoes/sairBut.png" />
+               </image>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </ImageView>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="26.0" />
+         </BorderPane.margin></HBox>
+   </bottom>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="242.0" fitWidth="214.0" layoutX="76.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/instrucoes.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="122.0" fitWidth="123.0" layoutX="305.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+               <image>
+                  <Image url="@../jogo/imgs/v1/2/nave2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="66.0" fitWidth="117.0" layoutX="434.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true" rotate="-26.6">
+               <image>
+                  <Image url="@imgs/setaVerde.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="127.0" layoutX="447.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/setaVerde.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="57.0" fitWidth="134.0" layoutX="436.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true" rotate="19.7">
+               <image>
+                  <Image url="@imgs/setaVermelha.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="117.0" fitWidth="110.0" layoutX="523.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../jogo/imgs/stars/starVerde.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="125.0" fitWidth="115.0" layoutX="576.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../jogo/imgs/stars/starRoxo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="113.0" fitWidth="108.0" layoutX="537.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../jogo/imgs/stars/starLaranja.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="115.0" fitWidth="115.0" layoutX="791.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../jogo/imgs/stars/branca/starBranca0.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="70.0" fitWidth="148.0" layoutX="918.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/setaBranca.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="138.0" fitWidth="142.0" layoutX="1067.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+               <image>
+                  <Image url="@../jogo/imgs/v1/0/nave2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="941.0" layoutY="406.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../jogo/imgs/stars/starPreta.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="781.0" layoutY="41.0" prefHeight="65.0" prefWidth="531.0" text="Pegar uma estrela branca lhe permitira coletar estrelas" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="819.0" layoutY="88.0" text="VERDES, ROXAS e LARANJAS por 10 segundos." textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="793.0" layoutY="366.0" text="Evite estrelas pretas a qualquer custo" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="143.0" layoutY="100.0" prefHeight="24.0" prefWidth="528.0" text="Você podera coletar apenas estrelas de cores que podem" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="152.0" layoutY="127.0" text="ser formadas apartir da cor de sua nave e evitar estrelas" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="203.0" layoutY="155.0" text="de cores com a ausencia da cor de sua nave." textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

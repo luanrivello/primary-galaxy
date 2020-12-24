@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane id="BorderPane" fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="806.0" prefWidth="965.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="primarygalaxy.MenuController">
+  <stylesheets>
+    <URL value="@newCascadeStyleSheet.css" />
+  </stylesheets>
+  <top>
+    <VBox alignment="CENTER" prefHeight="877.0" prefWidth="1061.0" spacing="20.0">
+      <children>
+        <ImageView fitHeight="150.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@botoes/titulo.png" />
+          </image>
+        </ImageView>
+        <Region prefHeight="111.0" prefWidth="965.0" />
+        <ImageView fitHeight="75.0" fitWidth="287.0" onMouseClicked="#jogar" pickOnBounds="true" preserveRatio="true" smooth="true">
+          <image>
+            <Image url="@botoes/jogarBut.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="75.0" fitWidth="278.0" onMouseClicked="#score" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@botoes/scoreBut.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="75.00009999999747" fitWidth="278.0" onMouseClicked="#comoJogar" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@botoes/comoJogarBut.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="75.0" fitWidth="278.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@botoes/sairBut.png" />
+          </image>
+        </ImageView>
+      </children>
+      <padding>
+        <Insets fx:id="x1" />
+      </padding>
+      <BorderPane.margin>
+        <Insets top="20.0" />
+      </BorderPane.margin>
+    </VBox>
+  </top>
+</BorderPane>

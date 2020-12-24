@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane id="BorderPane" fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyReleased="#alinhar" prefHeight="900.0" prefWidth="1600.0" style="" visible="true" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="jogo.JogoController">
+  <center>
+    <Pane fx:id="layoutJogo" prefHeight="200.0" prefWidth="200.0" style="-fx-background-image: url(&quot;background2.png&quot;);">
+      <children>
+        <ImageView fx:id="player" fitHeight="120.0" fitWidth="120.0" layoutX="7.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" smooth="false" visible="true" />
+      </children>
+    </Pane>
+  </center>
+  <padding>
+    <Insets fx:id="x1" />
+  </padding>
+  <stylesheets>
+    <URL value="@styleJogo.css" />
+  </stylesheets>
+  <top>
+    <HBox id="TopPane" alignment="CENTER_LEFT" prefHeight="81.0" prefWidth="-1.0">
+      <children>
+        <Label id="score" fx:id="scorelb" alignment="CENTER_LEFT" prefHeight="33.0" prefWidth="298.0" text="Score: 0" textAlignment="LEFT" textFill="WHITE">
+          <font>
+            <Font name="System Bold" size="28.0" />
+          </font>
+          <HBox.margin>
+            <Insets left="12.0" />
+          </HBox.margin>
+        </Label>
+        <Region prefHeight="71.0" prefWidth="465.0" />
+        <ImageView fitHeight="70.99998474121094" fitWidth="73.5356908228163" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../primarygalaxy/botoes/rby.png" />
+          </image>
+        </ImageView>
+      </children>
+      <BorderPane.margin>
+        <Insets fx:id="x1" />
+      </BorderPane.margin>
+    </HBox>
+  </top>
+</BorderPane>

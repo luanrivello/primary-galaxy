@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="BorderPane" minWidth="360.0" prefHeight="853.0" prefWidth="1488.0" stylesheets="@placarStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="placar.PlacarController">
+   <center>
+      <HBox alignment="CENTER" minHeight="530.0" minWidth="360.0">
+         <children>
+            <VBox alignment="CENTER" prefWidth="53.0">
+               <children>
+                  <Label text="1." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="2." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="3." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="4." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="5." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="6." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="7." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="8." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="9." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="10." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefWidth="145.0">
+               <children>
+                  <Label fx:id="nome1" text=". . . . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="nome2" text=". . . . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="nome3" text=". . . . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="nome4" text=". . . . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="nome5" text=". . . . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="nome6" text=". . . . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="nome7" text=". . . . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="nome8" text=". . . . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="nome9" text=". . . . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="nome10" text=". . . . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="658.0" prefWidth="101.0">
+               <children>
+                  <Label fx:id="score1" text=". . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="score2" text=". . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="score3" text=". . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="score4" text=". . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="score5" text=". . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="score6" text=". . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="score7" text=". . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="score8" text=". . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="score9" text=". . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="score10" text=". . . . . ." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </HBox>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" minHeight="81.0" minWidth="1472.0" prefHeight="81.0" prefWidth="1472.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="74.0" fitWidth="237.0" onMouseClicked="#voltar" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../primarygalaxy/botoes/sairBut.png" />
+               </image></ImageView>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="30.0" left="8.0" right="8.0" top="8.0" />
+         </BorderPane.margin>
+      </HBox>
+   </bottom>
+</BorderPane>

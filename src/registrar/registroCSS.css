@@ -1,0 +1,7 @@
+#BorderPane{
+    -fx-background-image: url("../jogo/imgs/background/background2.png");
+    -fx-background-repeat: stretch;  
+    -fx-background-size: 1600 900;
+    -fx-background-position: center center;
+    
+}

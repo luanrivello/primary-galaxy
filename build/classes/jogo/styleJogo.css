@@ -1,0 +1,18 @@
+#BorderPane{
+    -fx-background-color: black;
+    -fx-background-image: url("imgs/background/background4.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1600 900;
+    -fx-background-position: center center;
+     
+}
+
+#TopPane{
+    -fx-background-color: gray;
+    -fx-background-image: url("imgs/background/background5.jpeg");
+    -fx-background-position: 0 1000;
+    -fx-border-color: #000000;
+    -fx-border-width: 0 0 10 0;
+}
+    
+    
